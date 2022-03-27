@@ -122,6 +122,10 @@ return [
     'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
+    'cityone' => ['lat'=> '6.93194', 'long' => '79.84778', 'name' => 'Colombo'],
+    'citytwo' => ['lat'=> '-37.8409354', 'long' => '144.946457', 'name' => 'Melbourne'],
+
+    'open_weather_key' => env('OPEN_WEATHER_APP_KEY'),
 
     /*
     |--------------------------------------------------------------------------

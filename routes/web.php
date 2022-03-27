@@ -13,12 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::post('register', 'Auth\RegisterController@register');
+Route::post('login', 'Auth\LoginController@login');
+Route::post('logout', 'Auth\LoginController@logout');
+Route::get('user/logged-in', 'AppController@checkUserLoggedIn');
+Route::get('user/temperature', 'AppController@userTemperature');
+
+Route::group(['middleware' => ['auth']], function () {
+    Route::any('/', function () {
+        return view('main-app');
+    });
+});
+
 Route::any('{slug}', function () {
     return view('main-app');
 });
 
-Auth::routes();
+//Auth::routes();
 
 
-
-Route::get('/home', 'HomeController@index')->name('home');

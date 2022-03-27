@@ -1,16 +1,34 @@
 <template>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Example Component</div>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Login Temperatures</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                    <div class="card-body">
-                        I'm an example component.
-                    </div>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <router-link :to="{ name: 'home'}" class="nav-link">
+                            Login Temperature List
+                        </router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link :to="{ name: 'login'}" class="nav-link">
+                            Login
+                        </router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link :to="{ name: 'register'}" class="nav-link">
+                            Register
+                        </router-link>
+                    </li>
+                </ul>
             </div>
-            <router-view> </router-view>
+        </nav>
+        <div class="container mt-4">
+            <router-view></router-view>
         </div>
     </div>
 </template>
