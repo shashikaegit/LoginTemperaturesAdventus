@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d9b96d2-65aa-41ef-9a7d-5867d584b71e" name="Changes" comment="" />
+    <list default="true" id="3d9b96d2-65aa-41ef-9a7d-5867d584b71e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/main-app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main-app.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +177,7 @@
       <workItem from="1648388651917" duration="94000" />
       <workItem from="1648388760647" duration="34000" />
       <workItem from="1648389054087" duration="6734000" />
-      <workItem from="1648396879907" duration="1670000" />
+      <workItem from="1648396879907" duration="2056000" />
     </task>
     <servers />
   </component>
